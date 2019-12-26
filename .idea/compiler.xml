@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="complete" target="1.8" />
+      <module name="complete.main" target="1.8" />
+      <module name="complete.test" target="1.8" />
+      <module name="draft-gs-template" target="1.8" />
+      <module name="springboot-" target="1.8" />
+      <module name="springboot-azure-starter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="complete" options="-parameters" />
+      <module name="draft-gs-template" options="-parameters" />
+      <module name="springboot-" options="-parameters" />
+      <module name="springboot-azure-starter" options="-parameters" />
+    </option>
+  </component>
+</project>
